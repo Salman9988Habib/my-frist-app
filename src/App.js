@@ -1,9 +1,12 @@
 import React from 'react';
+import Header from './components/Header';
+import UserCard from './components/UserCard';
 
 function App() {
   return (
     <div>
-      <h1>Hello from My First React App!</h1>
+      <Header />
+      <UserCard name="Salman Habib" role="Front End Developer" />
     </div>
   );
 }
